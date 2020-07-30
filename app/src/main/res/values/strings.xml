@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Account</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="enter_password"> Enter Your Password </string>
+    <string name="login_btn">login</string>
+    <string name="signup_link">If you have Account Click Here TO Signup</string>
+    <string name="enter_your_user_name">Enter Your User Name</string>
+    <string name="enter_your_pwdagain"> Enter Your Password Again </string>
+    <string name="signup_btn">Sign up </string>
+    <string name="signup_error">hi hello</string>
+</resources>

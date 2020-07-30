@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txt_Username"
+    android:hint="@string/enter_your_user_name"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="250dp"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_password"
+        android:hint="@string/enter_password"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:inputType="textPassword"
+        android:layout_below="@+id/txt_Username"
+        android:layout_marginTop="15dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_pwd_again"
+        android:hint="@string/enter_your_pwdagain"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:inputType="textPassword"
+        android:layout_below="@+id/txt_password"
+        android:layout_marginTop="15dp"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup"
+        android:layout_below="@+id/txt_pwd_again"
+        android:layout_centerInParent="true"
+        android:text="@string/signup_btn"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_error"
+        android:text="@string/signup_error"
+        android:layout_below="@+id/signup"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="15dp"
+        />
+
+</RelativeLayout>
